@@ -1,6 +1,5 @@
 <h1 align="center">
 Team Profile Generator
-![GitHub](https://img.shields.io/github/license/matthewdamron/team-profile-generator)
 </h1>
 
 ## Table of Contents
