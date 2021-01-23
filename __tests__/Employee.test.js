@@ -41,4 +41,4 @@ test('get employee role', () => {
 
     // run test to get employee role
     expect(employee.getRole()).toEqual('Employee');
-})
+});
