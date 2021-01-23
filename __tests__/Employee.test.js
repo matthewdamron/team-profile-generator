@@ -23,7 +23,7 @@ test('get employee id value', () => {
     // create new Employee object
     const employee = new Employee('Matt', 2, 'mattdamron@msn.com');
 
-    // run test to get is value
+    // run test to get id value
     expect(employee.getId()).toEqual(expect.any(Number));
 });
 
@@ -40,5 +40,5 @@ test('get employee role', () => {
     const employee = new Employee('Matt', 2, 'mattdamron@msn.com');
 
     // run test to get employee role
-    expect(employee.getRole()).toEqual(expect.stringContaining(employee.role));
+    expect(employee.getRole()).toEqual('Employee');
 })
