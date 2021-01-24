@@ -13,7 +13,9 @@ const generateManager = managerData => {
                     <div class="card mx-auto m-2" style="width: 20rem;">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">ID: ${id}</li>
-                            <li class="list-group-item">Email: ${email}</li>
+                            <li class="list-group-item">Email: 
+                                <a href = "mailto: ${email}">${email}</a>
+                            </li>
                             <li class="list-group-item">Office Number: ${officeNumber}</li>
                         </ul>
                     </div>
@@ -40,8 +42,12 @@ const generateEngineer = engineerData => {
                     <div class="card mx-auto m-2" style="width: 20rem;">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">ID: ${id}</li>
-                            <li class="list-group-item">Email: ${email}</li>
-                            <li class="list-group-item">Github: ${github}</li>
+                            <li class="list-group-item">Email: 
+                                <a href = "mailto: ${email}">${email}</a>
+                            </li>
+                            <li class="list-group-item">Github: 
+                                <a href = "https://github.com/${github}" target = "_blank">${github}</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -67,7 +73,9 @@ const generateIntern = internData => {
                     <div class="card mx-auto m-2" style="width: 20rem;">
                         <ul class="list-group list-group-flush">
                             <li class="list-group-item">ID: ${id}</li>
-                            <li class="list-group-item">Email: ${email}</li>
+                            <li class="list-group-item">Email: 
+                                <a href = "mailto: ${email}">${email}</a>
+                            </li>
                             <li class="list-group-item">School: ${school}</li>
                         </ul>
                     </div>
