@@ -37,7 +37,7 @@ const generateEngineer = engineerData => {
                 <div class="card m-3 bg-light" style="width: 25rem;">
                     <div class="card-header bg-danger fs-3">
                         ${name}<br>
-                        <i class="fas fa-user-tie"> Engineer</i>
+                        <i class="fas fa-user-secret"> Engineer</i>
                     </div>
                     <div class="card mx-auto m-2" style="width: 20rem;">
                         <ul class="list-group list-group-flush">
@@ -68,7 +68,7 @@ const generateIntern = internData => {
                 <div class="card m-3 bg-light" style="width: 25rem;">
                     <div class="card-header bg-success fs-3">
                         ${name}<br>
-                        <i class="fas fa-user-tie"> Intern</i>
+                        <i class="fas fa-user-graduate"> Intern</i>
                     </div>
                     <div class="card mx-auto m-2" style="width: 20rem;">
                         <ul class="list-group list-group-flush">
