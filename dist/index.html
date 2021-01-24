@@ -1,25 +1,53 @@
+
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Team Profile</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"/>
 </head>
 
 <body>
     <header>
-        <h1 class="page-title text-secondary text-center bg-dark p-3">My Team</h1>
+        <h1 class="page-title text-white text-center bg-dark p-3">My Team</h1>
     </header>
+    <!-- Manager Section -->
     <main class="container my-5">
-        ${generateAbout(about)}
-        ${generateProjects(projects)}
+        
+    <section class="row justify-content-center">
+    
+                <div class="card m-3 bg-light" style="width: 25rem;">
+                    <div class="card-header bg-primary fs-3">
+                        Matt<br>
+                        <i class="fas fa-user-tie"> Manager</i>
+                    </div>
+                    <div class="card mx-auto m-2" style="width: 20rem;">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">ID: 4</li>
+                            <li class="list-group-item">Email: matt@msn.com</li>
+                            <li class="list-group-item">Office Number: 4</li>
+                        </ul>
+                    </div>
+                </div>
+            
+    </section>
+    
+        
+    <section class="row justify-content-center">
+    
+    </section>
+    
+        
+    <section class="row justify-content-center">
+    
+    </section>
+    
     </main>
     <footer class="container text-center py-3">
-        <h3 class="text-dark">&copy; ${new Date().getFullYear()} by ${header.name}</h3>
+        <h3 class="text-dark">&copy; 2021 by Matt </h3>
     </footer>
 </body>
-
 </html>
