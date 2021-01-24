@@ -47,7 +47,7 @@ THEN I exit the application, and the HTML is generated
 ```
 
 ## Screencast
-<!-- [![Watch the video](./utils/readme-generator.png)](https://drive.google.com/file/d/1fhJ8WjSsmwnVfBhrqTkjKFW5GMdggjMu/view?usp=sharing) -->
+[![Watch the video](./lib/Screenshot.png)](https://drive.google.com/file/d/1BeW8ZPIO45qCsRb82DUcvIcbGb0nbQpo/view?usp=sharing)
 
 ## Installation
 [node.js](https://nodejs.org)<br />
